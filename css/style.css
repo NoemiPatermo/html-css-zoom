@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction:column ;
+
+}
+.main{
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/girasole.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    color: white;
+    justify-content: flex-end;
+    border: 1px solid white;
+    
+}
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+}
+ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    color: ghostwhite;
+    padding-top: 20px;
+}
