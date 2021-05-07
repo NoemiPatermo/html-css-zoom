@@ -13,8 +13,10 @@
     display: flex;
     flex-grow: 1;
     background-color: black;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .photo{
     width: 150px;
@@ -23,12 +25,13 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    border: 1px solid white;   
+      
 }
 .text{
     position: absolute;
     font-size: 20px;
     color: ghostwhite;
+    background-color: rgba(0, 0, 0, 0.7);
     top:120px;
     
 }
@@ -36,13 +39,22 @@ nav{
     height: 80px;
     display: flex;
     justify-content: space-between;
-    background-color: lightcoral;
+    background-color: lightgray;
 }
 ul{
     display: flex;
 }
 nav li{
     list-style: none;
-    color: ghostwhite;
-    padding-top: 20px;
+    color: black;
+    padding-top: 10px;
+    
+}
+.first  .second{
+    text-align: center;
+    font-size: 15px;
+}
+.third{
+    font-style: oblique;
+    background-color: rgba(0, 0, 0, 0.5);
 }
