@@ -22,11 +22,14 @@
     background-image: url(../img/girasole.jpg);
     background-size: cover;
     background-position: center;
+    position: relative;
+    border: 1px solid white;   
+}
+.text{
+    position: absolute;
     font-size: 20px;
-    color: white;
-    justify-content: flex-end;
-    border: 1px solid white;
-    
+    color: ghostwhite;
+    top:120px;
 }
 nav{
     height: 80px;
